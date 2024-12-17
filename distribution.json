@@ -1,5 +1,5 @@
 {
-  "version": "1.0.4",
+  "version": "1.0.5",
   "rss": "<LINK TO RSS FEED>",
   "discord": {
     "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
@@ -12,7 +12,7 @@
       "name": "TerraCraft IX (Minecraft 1.20.1)",
       "description": "TerraCraft IX, ¿Buscas una Aventura? estás en el lugar correcto.",
       "icon": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/testico.jpg",
-      "version": "0.0.9",
+      "version": "0.0.9-Lite",
       "address": "51.222.208.86:25591",
       "minecraftVersion": "1.20.1",
       "mainServer": true,
@@ -1444,26 +1444,6 @@
             "size": 76237,
             "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/forgemods/required/MouseTweaks-forge-mc1.20.1-2.25.1.jar",
             "MD5": "ce4b5bbb9ef6a7905c458ab599ef4cb2"
-          }
-        },
-        {
-          "id": "net.count:mowziesdelight:1.0.3-1.20.1@jar",
-          "name": "Mowzie's Delight",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 23609,
-            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/forgemods/required/mowziesdelight-1.0.3-1.20.1.jar",
-            "MD5": "52647167239dee923e7c9aec7061e345"
-          }
-        },
-        {
-          "id": "com.bobmowzie:mowziesmobs:1.6.4@jar",
-          "name": "Mowzie's Mobs",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 15089229,
-            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/forgemods/required/mowziesmobs-1.6.5.jar",
-            "MD5": "b971bfa53fbd696f928811ff640c6f28"
           }
         },
         {
