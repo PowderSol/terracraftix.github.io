@@ -1,0 +1,169 @@
+{
+  "_schemaVersion": 6,
+  "_lastMCVersionId": 763,
+  "generalSettings": {
+    "detectATLauncherInstance": true,
+    "detectCurseManifest": true,
+    "detectMultiMCManifest": true,
+    "detectMCUpdaterInstance": true,
+    "detectTechnicPack": true,
+    "detectModrinthPack": true,
+    "detectBiomeData": true,
+    "detectDimensionData": true,
+    "detectWorldData": true,
+    "clientId": "1318554011351121970",
+    "defaultIcon": "modpack",
+    "enableJoinRequests": true,
+    "preferredClientLevel": 3,
+    "resetTimeOnInit": false,
+    "autoRegister": false
+  },
+  "biomeSettings": {
+    "fallbackBiomeIcon": "unknown",
+    "biomeData": {
+      "default": {
+        "textOverride": "Jugando en el bioma: {biome.name}"
+      }
+    }
+  },
+  "dimensionSettings": {
+    "fallbackDimensionIcon": "unknown",
+    "dimensionData": {
+      "minecraft:overworld": {
+        "textOverride": "en la dimensión: {dimension.name}",
+        "iconOverride": "overworld"
+      },
+      "default": {
+        "textOverride": "en la dimensión: {dimension.name}"
+      },
+      "the_nether": {
+        "textOverride": "en la dimensión: {dimension.name}",
+        "iconOverride": "nether"
+      },
+      "the_end": {
+        "textOverride": "en la dimensión: {dimension.name}",
+        "iconOverride": "end"
+      }
+    }
+  },
+  "serverSettings": {
+    "fallbackServerIcon": "modpack",
+    "fallbackServerName": "Minecraft Server",
+    "fallbackServerMotd": "A Minecraft Server",
+    "serverData": {
+      "default": {
+        "textOverride": "Jugando en: {server.motd.raw}"
+      }
+    },
+    "pingRateInterval": 5,
+    "pingRateUnit": "minutes"
+  },
+  "statusMessages": {
+    "mainMenuData": {
+      "textOverride": "En el menu principal",
+      "iconOverride": "menu"
+    },
+    "loadingData": {
+      "textOverride": "Cargando...",
+      "iconOverride": "loading"
+    },
+    "lanData": {
+      "textOverride": "Jugando en un Servidor LAN",
+      "iconOverride": "modpack"
+    },
+    "singleplayerData": {
+      "textOverride": "Testeando cosas... |",
+      "iconOverride": "modpack"
+    },
+    "realmData": {
+      "textOverride": "Playing on {server.motd.raw}"
+    }
+  },
+  "advancedSettings": {
+    "enablePerGui": true,
+    "enablePerItem": false,
+    "enablePerEntity": false,
+    "formatWords": true,
+    "debugMode": false,
+    "verboseMode": false,
+    "refreshRate": 2,
+    "allowPlaceholderPreviews": true,
+    "guiSettings": {
+      "fallbackGuiIcon": "unknown",
+      "guiData": {
+        "default": {
+          "textOverride": "In {screen.name}"
+        }
+      }
+    },
+    "itemMessages": {
+      "default": "Holding {item.message.holding}"
+    },
+    "entitySettings": {
+      "fallbackEntityIcon": "unknown",
+      "targetData": {
+        "default": {
+          "textOverride": "Targeting {entity.target.name}"
+        }
+      },
+      "ridingData": {
+        "default": {
+          "textOverride": "Riding {entity.riding.name}"
+        }
+      }
+    },
+    "allowEndpointIcons": true,
+    "serverIconEndpoint": "https://api.mcsrvstat.us/icon/{server.address.short}",
+    "playerSkinEndpoint": "https://mc-heads.net/avatar/{getOrDefault(player.uuid.short, player.name)}",
+    "allowDuplicatePackets": false,
+    "maxConnectionAttempts": 10,
+    "enableClassGraph": false,
+    "useClassLoader": false
+  },
+  "accessibilitySettings": {
+    "languageId": "en_us",
+    "stripTranslationColors": false,
+    "stripTranslationFormatting": false,
+    "stripExtraGuiElements": false,
+    "configKeyCode": -1
+  },
+  "displaySettings": {
+    "presenceData": {
+      "enabled": true,
+      "useAsMain": false,
+      "isInstance": false,
+      "activityType": 0,
+      "partyPrivacy": 1,
+      "details": "{getFirst(menu.message, biome.message)}",
+      "gameState": "{getOrDefault(server.message)} {getOrDefault(pack.name)}",
+      "largeImageKey": "modpack",
+      "largeImageText": "TerraCraft IX",
+      "smallImageKey": "{getFirst(menu.icon, dimension.icon)}",
+      "smallImageText": "{getFirst(menu.message, dimension.message)}",
+      "startTimestamp": "{data.general.time}",
+      "endTimestamp": "",
+      "buttons": {
+        "default": {
+          "label": "TerraCraft IX",
+          "url": "https://www.google.com"
+        }
+      }
+    },
+    "dynamicIcons": {
+      "PowderSol": "https://mc-heads.net/avatar/120d78c9a5134535a24afeb6346ffdb8",
+      "default": "https://via.placeholder.com/256.png"
+    },
+    "dynamicVariables": {
+      "default": "Example Text",
+      "mods": "{general.mods} Mod(s)",
+      "player_info_coordinate": "At {player.position.x}, {player.position.z}",
+      "players": "{server.players.current} / {server.players.max} Players",
+      "player_info_in": "({custom.player_info.health})",
+      "player_info_items": "Items: {item.main_hand.message}",
+      "player_info_out": "As {player.name}",
+      "player_info_health": "Health: {player.health.current}/{player.health.max}",
+      "world_info": "On {world.name}",
+      "pack": "{pack.name}"
+    }
+  }
+}

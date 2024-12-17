@@ -31,8 +31,8 @@ glintStrength:0.75
 damageTiltStrength:1.0
 highContrast:false
 gamma:0.5
-renderDistance:10
-simulationDistance:10
+renderDistance:8
+simulationDistance:8
 entityDistanceScaling:1.0
 guiScale:2
 particles:0
@@ -42,7 +42,7 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"true"
-resourcePacks:[]
+resourcePacks:["vanilla","mod_resources","Moonlight Mods Dynamic Assets"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:es_es
@@ -72,7 +72,7 @@ tutorialStep:none
 mouseWheelSensitivity:1.0
 rawMouseInput:true
 glDebugVerbosity:1
-skipMultiplayerWarning:false
+skipMultiplayerWarning:true
 skipRealms32bitWarning:false
 hideMatchedNames:true
 joinedFirstServer:false

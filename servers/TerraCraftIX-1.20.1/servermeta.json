@@ -1,11 +1,11 @@
 {
   "$schema": "file:///C:/nebula/schemas/ServerMetaSchema.schema.json",
   "meta": {
-    "version": "0.0.8",
+    "version": "0.0.9",
     "name": "TerraCraft IX (Minecraft 1.20.1)",
     "description": "TerraCraft IX, ¿Buscas una Aventura? estás en el lugar correcto.",
     "icon": "How to set the server icon: https://github.com/dscalzi/Nebula#setting-the-server-icon",
-    "address": "localhost:25565",
+    "address": "51.222.208.86:25591",
     "mainServer": true,
     "autoconnect": false
   },

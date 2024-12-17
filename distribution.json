@@ -1,5 +1,5 @@
 {
-  "version": "1.0.3",
+  "version": "1.0.4",
   "rss": "<LINK TO RSS FEED>",
   "discord": {
     "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
@@ -11,9 +11,9 @@
       "id": "TerraCraftIX-1.20.1",
       "name": "TerraCraft IX (Minecraft 1.20.1)",
       "description": "TerraCraft IX, ¿Buscas una Aventura? estás en el lugar correcto.",
-      "icon": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/testico1.jpg",
-      "version": "0.0.7",
-      "address": "localhost:25565",
+      "icon": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/testico.jpg",
+      "version": "0.0.9",
+      "address": "51.222.208.86:25591",
       "minecraftVersion": "1.20.1",
       "mainServer": true,
       "autoconnect": false,
@@ -448,16 +448,6 @@
           }
         },
         {
-          "id": "me.ultrusmods:altorigingui:1.1.2@jar",
-          "name": "AltOriginGui",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 204097,
-            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/forgemods/required/AltOriginGui-forge-1.20.1-1.1.2.jar",
-            "MD5": "6c50b08f4a6ca3793fbc3a05e8e65bce"
-          }
-        },
-        {
           "id": "squeek.appleskin:appleskin:2.5.1+mc1.20.1@jar",
           "name": "AppleSkin",
           "type": "ForgeMod",
@@ -598,6 +588,16 @@
           }
         },
         {
+          "id": "de.maxhenkel:camera:1.20.1-1.0.19@jar",
+          "name": "Camera Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 300166,
+            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/forgemods/required/camera-forge-1.20.1-1.0.19.jar",
+            "MD5": "0b3a8abb44e6f67fedd25a4c0387ace3"
+          }
+        },
+        {
           "id": "net.mcreator.cardinalsins:cardinal_sins:1.0.0@jar",
           "name": "Cardinal_sins",
           "type": "ForgeMod",
@@ -605,6 +605,16 @@
             "size": 9901529,
             "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/forgemods/required/Cardinal%20Sins%201.0.3.jar",
             "MD5": "91adb6acc36ceb1e8f878952f92f12e0"
+          }
+        },
+        {
+          "id": "dzwdz.chat_heads:chat_heads:0.13.7@jar",
+          "name": "Chat Heads",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 265135,
+            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/forgemods/required/chat_heads-0.13.7-forge-1.20.jar",
+            "MD5": "b4bd25da93deaf00dd6d6ae09902fc2a"
           }
         },
         {
@@ -625,16 +635,6 @@
             "size": 3173174,
             "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/forgemods/required/citadel-2.6.0-1.20.1.jar",
             "MD5": "86b18b35ee8f10b1f45bda02345792cd"
-          }
-        },
-        {
-          "id": "com.clientcrafting:clientcrafting:1.20.1-1.8@jar",
-          "name": "Clientcrafting mod",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 7089,
-            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/forgemods/required/clientcrafting-1.20.1-1.8.jar",
-            "MD5": "c93f560cd810de6ed97045968daf724c"
           }
         },
         {
@@ -718,6 +718,16 @@
           }
         },
         {
+          "id": "com.gitlab.cdagaming:craftpresence:2.5.2@jar",
+          "name": "CraftPresence",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2032029,
+            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/forgemods/required/CraftPresence-2.5.2+1.20.1-forge.jar",
+            "MD5": "4cf708faf41ab99c994b2f9c0725c99a"
+          }
+        },
+        {
           "id": "team.creative:creativecore:2.11.37@jar",
           "name": "CreativeCore",
           "type": "ForgeMod",
@@ -738,13 +748,13 @@
           }
         },
         {
-          "id": "top.theillusivec4:curios:5.9.1+1.20.1@jar",
+          "id": "top.theillusivec4:curios:5.11.0+1.20.1@jar",
           "name": "Curios API",
           "type": "ForgeMod",
           "artifact": {
-            "size": 382970,
-            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/forgemods/required/curios-forge-5.9.1+1.20.1.jar",
-            "MD5": "c4bef497fe84a0140652e43b267bd6ee"
+            "size": 389988,
+            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/forgemods/required/curios-forge-5.11.0+1.20.1.jar",
+            "MD5": "9d752b17b0e6d1e9cfe3ea3a230aaba1"
           }
         },
         {
@@ -755,16 +765,6 @@
             "size": 87943,
             "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/forgemods/required/defaultoptions-forge-1.20-18.0.1.jar",
             "MD5": "1784bcb1bd23f47ba2d048fc69ac743c"
-          }
-        },
-        {
-          "id": "de.geheimagentnr1:dimension_access_manager:3.1.0@jar",
-          "name": "Dimension Access Manager",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 104763,
-            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/forgemods/required/DimensionAccessManager-1.20.1-3.1.0.jar",
-            "MD5": "eddd6388620a080972b2b3e4ce9be50c"
           }
         },
         {
@@ -808,6 +808,26 @@
             "size": 1320429,
             "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/forgemods/required/embeddium-0.3.30+mc1.20.1.jar",
             "MD5": "adac1c5669c7ff5eee0ced92b9346c75"
+          }
+        },
+        {
+          "id": "com.hrznstudio:emojiful:4.2.0@jar",
+          "name": "Emojiful",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 262412,
+            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/forgemods/required/Emojiful-Forge-1.20.1-4.2.0.jar",
+            "MD5": "0ba360de4747e64c6325b74c0055479a"
+          }
+        },
+        {
+          "id": "io.github.kosmx.emotes:emotecraft:2.2.7-b.build.50@jar",
+          "name": "Emotecraft",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 680255,
+            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/forgemods/required/emotecraft-for-MC1.20.1-2.2.7-b.build.50-forge.jar",
+            "MD5": "636c62379cd7c5201a70fd457808e331"
           }
         },
         {
@@ -969,8 +989,11 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 57110,
-            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/forgemods/required/gamemenuremovegfarb-forge-mc1.19.4-2.1.2.jar",
+            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/forgemods/optionalon/gamemenuremovegfarb-forge-mc1.19.4-2.1.2.jar",
             "MD5": "2c45c4c4f8c506a70232d6a6d3e90843"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -1124,16 +1147,6 @@
           }
         },
         {
-          "id": "journeymap:journeymap:5.10.1@jar",
-          "name": "Journeymap",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 7160219,
-            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/forgemods/required/journeymap-1.20.1-5.10.1-forge.jar",
-            "MD5": "dddc978902ed8416be39cfebdff7c22d"
-          }
-        },
-        {
           "id": "jeresources:jeresources:1.4.0.247@jar",
           "name": "Just Enough Resources",
           "type": "ForgeMod",
@@ -1224,13 +1237,13 @@
           }
         },
         {
-          "id": "com.robertx22.library_of_exile.main:library_of_exile:1.5.2@jar",
+          "id": "com.robertx22.library_of_exile.main:library_of_exile:1.5.5@jar",
           "name": "Library Of Exile",
           "type": "ForgeMod",
           "artifact": {
-            "size": 161138,
-            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/forgemods/required/Library_of_Exile-1.20.1-1.5.2.jar",
-            "MD5": "3b4912b18b44c850af51dceb05f3fa40"
+            "size": 161415,
+            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/forgemods/required/Library_of_Exile-1.20.1-1.5.5.jar",
+            "MD5": "26bacbf793153a20141f38cf5cc448ba"
           }
         },
         {
@@ -1394,13 +1407,13 @@
           }
         },
         {
-          "id": "com.robertx22.mine_and_slash:mmorpg:5.6.3@jar",
+          "id": "com.robertx22.mine_and_slash:mmorpg:5.9.34@jar",
           "name": "Mine and Slash",
           "type": "ForgeMod",
           "artifact": {
-            "size": 9979467,
-            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/forgemods/required/Mine_and_Slash-1.20.1-5.6.3.jar",
-            "MD5": "5a171216d453017c3e1bdba5916b89b9"
+            "size": 10628400,
+            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/forgemods/required/Mine_and_Slash-1.20.1-5.9.34.jar",
+            "MD5": "199ac9b1bb42f11c6c352067151c2286"
           }
         },
         {
@@ -1454,6 +1467,19 @@
           }
         },
         {
+          "id": "com.focamacho:myserveriscompatible:1.0@jar",
+          "name": "MyServerIsCompatible",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3482,
+            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/forgemods/optionalon/MyServerIsCompatible-1.20-1.0.jar",
+            "MD5": "61d6f7c70030cbdacbbb0053cf120b79"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
           "id": "it.hurts.sskirillss:nerb:0.3@jar",
           "name": "Not Enough Recipe Book",
           "type": "ForgeMod",
@@ -1499,18 +1525,11 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 2831148,
-            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/forgemods/required/oculus-mc1.20.1-1.7.0.jar",
+            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/forgemods/optionalon/oculus-mc1.20.1-1.7.0.jar",
             "MD5": "45b96133bb46cc61dd9778bd4fca741d"
-          }
-        },
-        {
-          "id": "io.github.apace100:origins:1.20.1-1.10.0.9@jar",
-          "name": "Origins",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 2307868,
-            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/forgemods/required/origins-forge-1.20.1-1.10.0.9-all.jar",
-            "MD5": "354f0f804636e76e1efcd16f2ae245d3"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -1671,6 +1690,16 @@
             "size": 430178,
             "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/forgemods/required/resourcefullib-forge-1.20.1-2.1.28.jar",
             "MD5": "e65d82defa17d341ea73a28c5d63db1d"
+          }
+        },
+        {
+          "id": "morethanhidden.restrictedportals:restrictedportals:1.5.0@jar",
+          "name": "Restricted Portals",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 57684,
+            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/forgemods/required/restrictedportals-forge-1.20.1-1.5.0.jar",
+            "MD5": "672015d3111c06f68749126d82d94b5e"
           }
         },
         {
@@ -1864,16 +1893,23 @@
           }
         },
         {
+          "id": "com.gitlab.cdagaming:unilib:1.0.4@jar",
+          "name": "UniLib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1045849,
+            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/forgemods/required/UniLib-1.0.4+1.20.1-forge.jar",
+            "MD5": "dd23c34a365fc91f72ff5269d837e56c"
+          }
+        },
+        {
           "id": "de.maxhenkel:voicechat:1.20.1-2.5.20@jar",
           "name": "Simple Voice Chat",
           "type": "ForgeMod",
           "artifact": {
             "size": 7715661,
-            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/forgemods/optionalon/voicechat-forge-1.20.1-2.5.20.jar",
+            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/forgemods/required/voicechat-forge-1.20.1-2.5.20.jar",
             "MD5": "db36439eb601a51a9578b7b2af3ab73a"
-          },
-          "required": {
-            "value": false
           }
         },
         {
@@ -1914,6 +1950,26 @@
             "size": 47342265,
             "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/forgemods/required/witherstormmod-1.20.1-4.2.1-all.jar",
             "MD5": "401ef2f3270a67caf03a6c30610063e3"
+          }
+        },
+        {
+          "id": "xaero.minimap:xaerominimap:24.6.1@jar",
+          "name": "Xaero's Minimap",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1605900,
+            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/forgemods/required/Xaeros_Minimap_24.6.1_Forge_1.20.jar",
+            "MD5": "f4298b934da5b891604978187570565b"
+          }
+        },
+        {
+          "id": "xaero.map:xaeroworldmap:1.39.0@jar",
+          "name": "Xaero's World Map",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 930284,
+            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/forgemods/required/XaerosWorldMap_1.39.0_Forge_1.20.jar",
+            "MD5": "56bacc411ba41fbe016e9c53dbc283e6"
           }
         },
         {
@@ -2061,13 +2117,24 @@
           }
         },
         {
+          "id": "craftpresence.json",
+          "name": "craftpresence.json",
+          "type": "File",
+          "artifact": {
+            "size": 4988,
+            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/config/craftpresence.json",
+            "MD5": "95881dd95fd71879e59480dbe34e3b37",
+            "path": "config/craftpresence.json"
+          }
+        },
+        {
           "id": "keybindings.txt",
           "name": "keybindings.txt",
           "type": "File",
           "artifact": {
-            "size": 10273,
+            "size": 10917,
             "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/config/defaultoptions/keybindings.txt",
-            "MD5": "3908abcc12fd0ba3a75154957f29db33",
+            "MD5": "e1d82f81bc77de1aedb2351ee5de2f80",
             "path": "config/defaultoptions/keybindings.txt"
           }
         },
@@ -2076,10 +2143,120 @@
           "name": "options.txt",
           "type": "File",
           "artifact": {
-            "size": 2250,
+            "size": 2305,
             "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/config/defaultoptions/options.txt",
-            "MD5": "a9754b7f37ac0c04bec0097b040f2edd",
+            "MD5": "e8f74e09ad6e14d83d3ba066ba56c870",
             "path": "config/defaultoptions/options.txt"
+          }
+        },
+        {
+          "id": "servers.dat",
+          "name": "servers.dat",
+          "type": "File",
+          "artifact": {
+            "size": 10355,
+            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/config/defaultoptions/servers.dat",
+            "MD5": "d82e4563732d706088f76ea5fcff1948",
+            "path": "config/defaultoptions/servers.dat"
+          }
+        },
+        {
+          "id": "musicamenu.ogg",
+          "name": "musicamenu.ogg",
+          "type": "File",
+          "artifact": {
+            "size": 14046901,
+            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/config/fancymenu/assets/terracraftaudio/musicamenu.ogg",
+            "MD5": "bbb59fd29655bf735f9d7fde8bd539e2",
+            "path": "config/fancymenu/assets/terracraftaudio/musicamenu.ogg"
+          }
+        },
+        {
+          "id": "63.png",
+          "name": "63.png",
+          "type": "File",
+          "artifact": {
+            "size": 902566,
+            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/config/fancymenu/assets/terracrafttexturas/63.png",
+            "MD5": "52db7dbae9cf02ad1a78c69d1c0991c8",
+            "path": "config/fancymenu/assets/terracrafttexturas/63.png"
+          }
+        },
+        {
+          "id": "empty.png",
+          "name": "empty.png",
+          "type": "File",
+          "artifact": {
+            "size": 142,
+            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/config/fancymenu/assets/terracrafttexturas/empty.png",
+            "MD5": "c9477b1f1820f9acfb93eebb2e6679c2",
+            "path": "config/fancymenu/assets/terracrafttexturas/empty.png"
+          }
+        },
+        {
+          "id": "mineandslash.png",
+          "name": "mineandslash.png",
+          "type": "File",
+          "artifact": {
+            "size": 5691,
+            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/config/fancymenu/assets/terracrafttexturas/mineandslash.png",
+            "MD5": "3cd9a2dd85932e42322cfd2775a3587c",
+            "path": "config/fancymenu/assets/terracrafttexturas/mineandslash.png"
+          }
+        },
+        {
+          "id": "terra16x16.png",
+          "name": "terra16x16.png",
+          "type": "File",
+          "artifact": {
+            "size": 1295,
+            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/config/fancymenu/assets/terracrafttexturas/terra16x16.png",
+            "MD5": "ad7a912b6aa7416b9f22bfa8883ee2c9",
+            "path": "config/fancymenu/assets/terracrafttexturas/terra16x16.png"
+          }
+        },
+        {
+          "id": "terra32x32.icns",
+          "name": "terra32x32.icns",
+          "type": "File",
+          "artifact": {
+            "size": 117538,
+            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/config/fancymenu/assets/terracrafttexturas/terra32x32.icns",
+            "MD5": "0937534548aa13252563c85393b76a0d",
+            "path": "config/fancymenu/assets/terracrafttexturas/terra32x32.icns"
+          }
+        },
+        {
+          "id": "terra32x32.png",
+          "name": "terra32x32.png",
+          "type": "File",
+          "artifact": {
+            "size": 2521,
+            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/config/fancymenu/assets/terracrafttexturas/terra32x32.png",
+            "MD5": "6206634b7e901ec72febb3b5122308fb",
+            "path": "config/fancymenu/assets/terracrafttexturas/terra32x32.png"
+          }
+        },
+        {
+          "id": "terracraftmenu2.fma",
+          "name": "terracraftmenu2.fma",
+          "type": "File",
+          "artifact": {
+            "size": 11014545,
+            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/config/fancymenu/assets/terracrafttexturas/terracraftmenu2.fma",
+            "MD5": "a0dc26775dd4b827b898d59f84a99f7c",
+            "path": "config/fancymenu/assets/terracrafttexturas/terracraftmenu2.fma"
+          }
+        },
+        {
+          "id": "titulo.png",
+          "name": "titulo.png",
+          "type": "File",
+          "artifact": {
+            "size": 120882,
+            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/config/fancymenu/assets/terracrafttexturas/titulo.png",
+            "MD5": "731597b09cbe1bc0e8219b92e92c1f8a",
+            "path": "config/fancymenu/assets/terracrafttexturas/titulo.png"
           }
         },
         {
@@ -2087,10 +2264,219 @@
           "name": "customizablemenus.txt",
           "type": "File",
           "artifact": {
-            "size": 99,
+            "size": 969,
             "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/config/fancymenu/customizablemenus.txt",
-            "MD5": "19d383b0e3a0c08de6f0b4c69d0e4b3e",
+            "MD5": "0af42e1b9b77fa80c158102e05872e61",
             "path": "config/fancymenu/customizablemenus.txt"
+          }
+        },
+        {
+          "id": "ascension.txt",
+          "name": "ascension.txt",
+          "type": "File",
+          "artifact": {
+            "size": 3717,
+            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/config/fancymenu/customization/ascension.txt",
+            "MD5": "50097af97348fcfb318aa9a6d90fbca7",
+            "path": "config/fancymenu/customization/ascension.txt"
+          }
+        },
+        {
+          "id": "bestiary.txt",
+          "name": "bestiary.txt",
+          "type": "File",
+          "artifact": {
+            "size": 3250,
+            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/config/fancymenu/customization/bestiary.txt",
+            "MD5": "025d3f24c1974f7d535400efddae9159",
+            "path": "config/fancymenu/customization/bestiary.txt"
+          }
+        },
+        {
+          "id": "character-select.txt",
+          "name": "character-select.txt",
+          "type": "File",
+          "artifact": {
+            "size": 5789,
+            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/config/fancymenu/customization/character-select.txt",
+            "MD5": "e10bfe923af6ac47199ff92542379a9c",
+            "path": "config/fancymenu/customization/character-select.txt"
+          }
+        },
+        {
+          "id": "class-select.txt",
+          "name": "class-select.txt",
+          "type": "File",
+          "artifact": {
+            "size": 34434,
+            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/config/fancymenu/customization/class-select.txt",
+            "MD5": "176043a7460beed78b86c91072639fb5",
+            "path": "config/fancymenu/customization/class-select.txt"
+          }
+        },
+        {
+          "id": "com.robertx22.age_of_exile.gui.screens.skill_tree.ascendancytree_layout.txt",
+          "name": "com.robertx22.age_of_exile.gui.screens.skill_tree.ascendancytree_layout.txt",
+          "type": "File",
+          "artifact": {
+            "size": 167053,
+            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/config/fancymenu/customization/com.robertx22.age_of_exile.gui.screens.skill_tree.ascendancytree_layout.txt",
+            "MD5": "af18e000738dfcf9102dc8b32633dc68",
+            "path": "config/fancymenu/customization/com.robertx22.age_of_exile.gui.screens.skill_tree.ascendancytree_layout.txt"
+          }
+        },
+        {
+          "id": "com.robertx22.age_of_exile.gui.screens.stat_gui.statscreen_layout.txt",
+          "name": "com.robertx22.age_of_exile.gui.screens.stat_gui.statscreen_layout.txt",
+          "type": "File",
+          "artifact": {
+            "size": 21783,
+            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/config/fancymenu/customization/com.robertx22.age_of_exile.gui.screens.stat_gui.statscreen_layout.txt",
+            "MD5": "1e6a54f5f041f355b6ec98a8bf746b99",
+            "path": "config/fancymenu/customization/com.robertx22.age_of_exile.gui.screens.stat_gui.statscreen_layout.txt"
+          }
+        },
+        {
+          "id": "com.robertx22.age_of_exile.prophecy.gui.prophecyscreen_layout.txt",
+          "name": "com.robertx22.age_of_exile.prophecy.gui.prophecyscreen_layout.txt",
+          "type": "File",
+          "artifact": {
+            "size": 27955,
+            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/config/fancymenu/customization/com.robertx22.age_of_exile.prophecy.gui.prophecyscreen_layout.txt",
+            "MD5": "bfe68aed24b2c0551a2221818a6bf2d9",
+            "path": "config/fancymenu/customization/com.robertx22.age_of_exile.prophecy.gui.prophecyscreen_layout.txt"
+          }
+        },
+        {
+          "id": "com.robertx22.mine_and_slash.characters.reworked_gui.toonscreen_layout.txt",
+          "name": "com.robertx22.mine_and_slash.characters.reworked_gui.toonscreen_layout.txt",
+          "type": "File",
+          "artifact": {
+            "size": 6527,
+            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/config/fancymenu/customization/com.robertx22.mine_and_slash.characters.reworked_gui.toonscreen_layout.txt",
+            "MD5": "af17db7f2e857bbb90038e1755e792f7",
+            "path": "config/fancymenu/customization/com.robertx22.mine_and_slash.characters.reworked_gui.toonscreen_layout.txt"
+          }
+        },
+        {
+          "id": "com.robertx22.mine_and_slash.gui.card_picker.cardpickscreen_layout.txt",
+          "name": "com.robertx22.mine_and_slash.gui.card_picker.cardpickscreen_layout.txt",
+          "type": "File",
+          "artifact": {
+            "size": 5471,
+            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/config/fancymenu/customization/com.robertx22.mine_and_slash.gui.card_picker.cardpickscreen_layout.txt",
+            "MD5": "15a92578602a800a6ff217ed7a6a2a4f",
+            "path": "config/fancymenu/customization/com.robertx22.mine_and_slash.gui.card_picker.cardpickscreen_layout.txt"
+          }
+        },
+        {
+          "id": "com.robertx22.mine_and_slash.gui.wiki.reworked.newwikiscreen_layout.txt",
+          "name": "com.robertx22.mine_and_slash.gui.wiki.reworked.newwikiscreen_layout.txt",
+          "type": "File",
+          "artifact": {
+            "size": 19580,
+            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/config/fancymenu/customization/com.robertx22.mine_and_slash.gui.wiki.reworked.newwikiscreen_layout.txt",
+            "MD5": "53c6d39bc55dd22c63d974b6c3a65651",
+            "path": "config/fancymenu/customization/com.robertx22.mine_and_slash.gui.wiki.reworked.newwikiscreen_layout.txt"
+          }
+        },
+        {
+          "id": "inventory_screen_layout.txt",
+          "name": "inventory_screen_layout.txt",
+          "type": "File",
+          "artifact": {
+            "size": 6549,
+            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/config/fancymenu/customization/inventory_screen_layout.txt",
+            "MD5": "1237873e7fb1ae5b71fcc48b45ec4616",
+            "path": "config/fancymenu/customization/inventory_screen_layout.txt"
+          }
+        },
+        {
+          "id": "jewel.txt",
+          "name": "jewel.txt",
+          "type": "File",
+          "artifact": {
+            "size": 2130,
+            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/config/fancymenu/customization/jewel.txt",
+            "MD5": "c0f5162df4528834c1337bed45e627df",
+            "path": "config/fancymenu/customization/jewel.txt"
+          }
+        },
+        {
+          "id": "mine-slash-menu.txt",
+          "name": "mine-slash-menu.txt",
+          "type": "File",
+          "artifact": {
+            "size": 47643,
+            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/config/fancymenu/customization/mine-slash-menu.txt",
+            "MD5": "9b22ef95c66e35b6869caa98bafba389",
+            "path": "config/fancymenu/customization/mine-slash-menu.txt"
+          }
+        },
+        {
+          "id": "musica.txt",
+          "name": "musica.txt",
+          "type": "File",
+          "artifact": {
+            "size": 1827,
+            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/config/fancymenu/customization/musica.txt",
+            "MD5": "f81c8adc732d7c2007e78df97aa56db3",
+            "path": "config/fancymenu/customization/musica.txt"
+          }
+        },
+        {
+          "id": "receiving.txt",
+          "name": "receiving.txt",
+          "type": "File",
+          "artifact": {
+            "size": 863,
+            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/config/fancymenu/customization/receiving.txt",
+            "MD5": "1989eea55fe4d6597daf328832c94ede",
+            "path": "config/fancymenu/customization/receiving.txt"
+          }
+        },
+        {
+          "id": "salvaging.txt",
+          "name": "salvaging.txt",
+          "type": "File",
+          "artifact": {
+            "size": 2166,
+            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/config/fancymenu/customization/salvaging.txt",
+            "MD5": "2fdf2d9d247b1fee11524b81cbe61e54",
+            "path": "config/fancymenu/customization/salvaging.txt"
+          }
+        },
+        {
+          "id": "skill-gems.txt",
+          "name": "skill-gems.txt",
+          "type": "File",
+          "artifact": {
+            "size": 56374,
+            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/config/fancymenu/customization/skill-gems.txt",
+            "MD5": "60e9affa09691b793d882b2f65c4a701",
+            "path": "config/fancymenu/customization/skill-gems.txt"
+          }
+        },
+        {
+          "id": "talent-tree.txt",
+          "name": "talent-tree.txt",
+          "type": "File",
+          "artifact": {
+            "size": 656723,
+            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/config/fancymenu/customization/talent-tree.txt",
+            "MD5": "9653c839924bd2b097f642bcbeb6887c",
+            "path": "config/fancymenu/customization/talent-tree.txt"
+          }
+        },
+        {
+          "id": "terramenu.txt",
+          "name": "terramenu.txt",
+          "type": "File",
+          "artifact": {
+            "size": 17654,
+            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/config/fancymenu/customization/terramenu.txt",
+            "MD5": "3726f08111137002da583dba807cc682",
+            "path": "config/fancymenu/customization/terramenu.txt"
           }
         },
         {
@@ -2102,6 +2488,94 @@
             "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/config/fancymenu/custom_gui_screens.txt",
             "MD5": "106e52948415f0879c53304f50783b28",
             "path": "config/fancymenu/custom_gui_screens.txt"
+          }
+        },
+        {
+          "id": "extra_info_button.png",
+          "name": "extra_info_button.png",
+          "type": "File",
+          "artifact": {
+            "size": 490,
+            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/config/fancymenu/images/extra_info_button.png",
+            "MD5": "3ba02ea3c80ddadee37a7292a575a880",
+            "path": "config/fancymenu/images/extra_info_button.png"
+          }
+        },
+        {
+          "id": "frame.png",
+          "name": "frame.png",
+          "type": "File",
+          "artifact": {
+            "size": 2028,
+            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/config/fancymenu/images/frame.png",
+            "MD5": "468e50dd98f35b94e97d342c16645ecc",
+            "path": "config/fancymenu/images/frame.png"
+          }
+        },
+        {
+          "id": "jewel_info.png",
+          "name": "jewel_info.png",
+          "type": "File",
+          "artifact": {
+            "size": 679,
+            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/config/fancymenu/images/jewel_info.png",
+            "MD5": "92a15133dae80e90651cd96ef928fd53",
+            "path": "config/fancymenu/images/jewel_info.png"
+          }
+        },
+        {
+          "id": "leftright-hover.png",
+          "name": "leftright-hover.png",
+          "type": "File",
+          "artifact": {
+            "size": 334,
+            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/config/fancymenu/images/leftright-hover.png",
+            "MD5": "9cda69dbcf71345cde5ee8c558a35a73",
+            "path": "config/fancymenu/images/leftright-hover.png"
+          }
+        },
+        {
+          "id": "leftright.png",
+          "name": "leftright.png",
+          "type": "File",
+          "artifact": {
+            "size": 334,
+            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/config/fancymenu/images/leftright.png",
+            "MD5": "dee6383cfcf4bc641fc848daf9357620",
+            "path": "config/fancymenu/images/leftright.png"
+          }
+        },
+        {
+          "id": "wiki.png",
+          "name": "wiki.png",
+          "type": "File",
+          "artifact": {
+            "size": 11494,
+            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/config/fancymenu/images/wiki.png",
+            "MD5": "7b2c9fd9a54b3b1d4803a5b59776c504",
+            "path": "config/fancymenu/images/wiki.png"
+          }
+        },
+        {
+          "id": "wiki_hover.png",
+          "name": "wiki_hover.png",
+          "type": "File",
+          "artifact": {
+            "size": 8579,
+            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/config/fancymenu/images/wiki_hover.png",
+            "MD5": "28f3bc4afba5d9f4a66443ed717c5fca",
+            "path": "config/fancymenu/images/wiki_hover.png"
+          }
+        },
+        {
+          "id": "element_layer_control.lewidget",
+          "name": "element_layer_control.lewidget",
+          "type": "File",
+          "artifact": {
+            "size": 199,
+            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/config/fancymenu/layout_editor/widgets/element_layer_control.lewidget",
+            "MD5": "8cae37df93065294daf2b1889163c0d3",
+            "path": "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
           }
         },
         {
@@ -2120,9 +2594,9 @@
           "name": "options.txt",
           "type": "File",
           "artifact": {
-            "size": 1750,
+            "size": 2051,
             "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/config/fancymenu/options.txt",
-            "MD5": "cc5c87c63c562c137a2bb7f2c1413725",
+            "MD5": "85fe63fc1f6f60b403c90e565d79f3fb",
             "path": "config/fancymenu/options.txt"
           }
         },
@@ -2226,14 +2700,14 @@
           }
         },
         {
-          "id": "origins-common.toml",
-          "name": "origins-common.toml",
+          "id": "restrictedportals-common.toml",
+          "name": "restrictedportals-common.toml",
           "type": "File",
           "artifact": {
-            "size": 2540,
-            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/config/origins-common.toml",
-            "MD5": "be5a9f825b7cceb93e2f8c0f5dc39090",
-            "path": "config/origins-common.toml"
+            "size": 745,
+            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/config/restrictedportals-common.toml",
+            "MD5": "09e89a831b05b46c695b3d29129a6b53",
+            "path": "config/restrictedportals-common.toml"
           }
         },
         {
@@ -2259,1059 +2733,267 @@
           }
         },
         {
+          "id": "xaerominimap-common.txt",
+          "name": "xaerominimap-common.txt",
+          "type": "File",
+          "artifact": {
+            "size": 145,
+            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/config/xaerominimap-common.txt",
+            "MD5": "c4bb2d96ebd8182b307ef6b2fda27370",
+            "path": "config/xaerominimap-common.txt"
+          }
+        },
+        {
+          "id": "xaerominimap.txt",
+          "name": "xaerominimap.txt",
+          "type": "File",
+          "artifact": {
+            "size": 3507,
+            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/config/xaerominimap.txt",
+            "MD5": "119545803c0443444fc202a17435a209",
+            "path": "config/xaerominimap.txt"
+          }
+        },
+        {
+          "id": "xaerominimap_entities.json",
+          "name": "xaerominimap_entities.json",
+          "type": "File",
+          "artifact": {
+            "size": 5646,
+            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/config/xaerominimap_entities.json",
+            "MD5": "ef04a93b9d7276cd05a4e0d7f4657f03",
+            "path": "config/xaerominimap_entities.json"
+          }
+        },
+        {
+          "id": "xaeropatreon.txt",
+          "name": "xaeropatreon.txt",
+          "type": "File",
+          "artifact": {
+            "size": 0,
+            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/config/xaeropatreon.txt",
+            "MD5": "d41d8cd98f00b204e9800998ecf8427e",
+            "path": "config/xaeropatreon.txt"
+          }
+        },
+        {
+          "id": "xaeroworldmap-common.txt",
+          "name": "xaeroworldmap-common.txt",
+          "type": "File",
+          "artifact": {
+            "size": 120,
+            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/config/xaeroworldmap-common.txt",
+            "MD5": "5a2200d083554257d61384f2c486162b",
+            "path": "config/xaeroworldmap-common.txt"
+          }
+        },
+        {
+          "id": "xaeroworldmap.txt",
+          "name": "xaeroworldmap.txt",
+          "type": "File",
+          "artifact": {
+            "size": 1218,
+            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/config/xaeroworldmap.txt",
+            "MD5": "61668053aa4dc58507cde11ed376502c",
+            "path": "config/xaeroworldmap.txt"
+          }
+        },
+        {
           "id": "mine_and_slash-server.toml",
           "name": "mine_and_slash-server.toml",
           "type": "File",
           "artifact": {
-            "size": 3621,
+            "size": 3623,
             "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/defaultconfigs/mine_and_slash-server.toml",
-            "MD5": "dc65d1cb0b3bd65de5d285f18353b230",
+            "MD5": "9ea7e0ef3ce03b74505e89cc1ac99ba4",
             "path": "defaultconfigs/mine_and_slash-server.toml"
           }
         },
         {
-          "id": "journeymap.core.config",
-          "name": "journeymap.core.config",
+          "id": "llamadiosessonido.ogg",
+          "name": "llamadiosessonido.ogg",
           "type": "File",
           "artifact": {
-            "size": 1871,
-            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/journeymap/config/5.10/journeymap.core.config",
-            "MD5": "50d8c18ed467aa59796164b2d03d2543",
-            "path": "journeymap/config/5.10/journeymap.core.config"
+            "size": 80928,
+            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/kubejs/assets/kubejs/sounds/llamadiosessonido.ogg",
+            "MD5": "5e39dfbf7978a159e04b921d011c5e8f",
+            "path": "kubejs/assets/kubejs/sounds/llamadiosessonido.ogg"
           }
         },
         {
-          "id": "journeymap.fullmap.config",
-          "name": "journeymap.fullmap.config",
+          "id": "example_block.png",
+          "name": "example_block.png",
           "type": "File",
           "artifact": {
-            "size": 870,
-            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/journeymap/config/5.10/journeymap.fullmap.config",
-            "MD5": "56ea2a6224990df24fa6b1d8b3200424",
-            "path": "journeymap/config/5.10/journeymap.fullmap.config"
+            "size": 247,
+            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/kubejs/assets/kubejs/textures/block/example_block.png",
+            "MD5": "4f2cf24a9f5a4c9ded2bc7c9a792355c",
+            "path": "kubejs/assets/kubejs/textures/block/example_block.png"
           }
         },
         {
-          "id": "journeymap.minimap.config",
-          "name": "journeymap.minimap.config",
+          "id": "calavera_liberadora.png",
+          "name": "calavera_liberadora.png",
           "type": "File",
           "artifact": {
-            "size": 1670,
-            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/journeymap/config/5.10/journeymap.minimap.config",
-            "MD5": "35fc72a4bee459d4f4920095ce18fd08",
-            "path": "journeymap/config/5.10/journeymap.minimap.config"
+            "size": 2216,
+            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/kubejs/assets/kubejs/textures/item/calavera_liberadora.png",
+            "MD5": "8d84fae8529cce1f1d1272c1a654dc5c",
+            "path": "kubejs/assets/kubejs/textures/item/calavera_liberadora.png"
           }
         },
         {
-          "id": "journeymap.minimap2.config",
-          "name": "journeymap.minimap2.config",
+          "id": "gema_muerte.png",
+          "name": "gema_muerte.png",
           "type": "File",
           "artifact": {
-            "size": 1663,
-            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/journeymap/config/5.10/journeymap.minimap2.config",
-            "MD5": "aabaceb90c751bd676264e6aa147b2a9",
-            "path": "journeymap/config/5.10/journeymap.minimap2.config"
+            "size": 1856,
+            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/kubejs/assets/kubejs/textures/item/gema_muerte.png",
+            "MD5": "ea1fa9b50e3e3db89185cbce044899bc",
+            "path": "kubejs/assets/kubejs/textures/item/gema_muerte.png"
           }
         },
         {
-          "id": "journeymap.topo.config",
-          "name": "journeymap.topo.config",
+          "id": "gema_prosperidad.png",
+          "name": "gema_prosperidad.png",
           "type": "File",
           "artifact": {
-            "size": 964,
-            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/journeymap/config/5.10/journeymap.topo.config",
-            "MD5": "4bc570c80d9a3714604696e72069ca44",
-            "path": "journeymap/config/5.10/journeymap.topo.config"
+            "size": 2189,
+            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/kubejs/assets/kubejs/textures/item/gema_prosperidad.png",
+            "MD5": "8665ce3973e13549554f93fdcba04150",
+            "path": "kubejs/assets/kubejs/textures/item/gema_prosperidad.png"
           }
         },
         {
-          "id": "journeymap.waypoint.config",
-          "name": "journeymap.waypoint.config",
+          "id": "gema_vacio.png",
+          "name": "gema_vacio.png",
           "type": "File",
           "artifact": {
-            "size": 896,
-            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/journeymap/config/5.10/journeymap.waypoint.config",
-            "MD5": "a1bcd15d4313fba5c28a81035c35f67b",
-            "path": "journeymap/config/5.10/journeymap.waypoint.config"
+            "size": 2195,
+            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/kubejs/assets/kubejs/textures/item/gema_vacio.png",
+            "MD5": "431745cc263fb5165f80eece19dd2d81",
+            "path": "kubejs/assets/kubejs/textures/item/gema_vacio.png"
           }
         },
         {
-          "id": "journeymap.webmap.config",
-          "name": "journeymap.webmap.config",
+          "id": "gema_vida.png",
+          "name": "gema_vida.png",
           "type": "File",
           "artifact": {
-            "size": 155,
-            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/journeymap/config/5.10/journeymap.webmap.config",
-            "MD5": "1d0d275c8624397b9de57a78ead08a9f",
-            "path": "journeymap/config/5.10/journeymap.webmap.config"
+            "size": 2633,
+            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/kubejs/assets/kubejs/textures/item/gema_vida.png",
+            "MD5": "daa56b47faab95396161bd14216b4eb8",
+            "path": "kubejs/assets/kubejs/textures/item/gema_vida.png"
           }
         },
         {
-          "id": "default.theme.config",
-          "name": "default.theme.config",
+          "id": "llama_dioses.png",
+          "name": "llama_dioses.png",
           "type": "File",
           "artifact": {
-            "size": 83,
-            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/journeymap/icon/theme/default.theme.config",
-            "MD5": "9a651dda4758f8a349cc4017f2d60da6",
-            "path": "journeymap/icon/theme/default.theme.config"
+            "size": 1743,
+            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/kubejs/assets/kubejs/textures/item/llama_dioses.png",
+            "MD5": "edc682ed3214ba1fdeb3d2686b15e2bc",
+            "path": "kubejs/assets/kubejs/textures/item/llama_dioses.png"
           }
         },
         {
-          "id": "htoolbar_begin.png",
-          "name": "htoolbar_begin.png",
+          "id": "terracoin.png",
+          "name": "terracoin.png",
           "type": "File",
           "artifact": {
-            "size": 148,
-            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/journeymap/icon/theme/flat/container/htoolbar_begin.png",
-            "MD5": "cfab66d0a13d5b7f359fabc1d9a19437",
-            "path": "journeymap/icon/theme/flat/container/htoolbar_begin.png"
+            "size": 2988,
+            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/kubejs/assets/kubejs/textures/item/terracoin.png",
+            "MD5": "8ad44ca8521515c3723ef78459ca3631",
+            "path": "kubejs/assets/kubejs/textures/item/terracoin.png"
           }
         },
         {
-          "id": "htoolbar_end.png",
-          "name": "htoolbar_end.png",
+          "id": "invocacion_dioses.mp3",
+          "name": "invocacion_dioses.mp3",
           "type": "File",
           "artifact": {
-            "size": 148,
-            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/journeymap/icon/theme/flat/container/htoolbar_end.png",
-            "MD5": "cfab66d0a13d5b7f359fabc1d9a19437",
-            "path": "journeymap/icon/theme/flat/container/htoolbar_end.png"
+            "size": 78504,
+            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/kubejs/assets/kubejs/textures/sounds/invocacion_dioses.mp3",
+            "MD5": "dbca30523761f25a9f981f970f3eee63",
+            "path": "kubejs/assets/kubejs/textures/sounds/invocacion_dioses.mp3"
           }
         },
         {
-          "id": "htoolbar_inner.png",
-          "name": "htoolbar_inner.png",
+          "id": "example.js",
+          "name": "example.js",
           "type": "File",
           "artifact": {
-            "size": 199,
-            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/journeymap/icon/theme/flat/container/htoolbar_inner.png",
-            "MD5": "569e70e6e0c65135a9b6b6815b84b972",
-            "path": "journeymap/icon/theme/flat/container/htoolbar_inner.png"
+            "size": 126,
+            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/kubejs/client_scripts/example.js",
+            "MD5": "979c62225b318d6d57499921bc47b62d",
+            "path": "kubejs/client_scripts/example.js"
           }
         },
         {
-          "id": "vtoolbar_begin.png",
-          "name": "vtoolbar_begin.png",
+          "id": "client.properties",
+          "name": "client.properties",
           "type": "File",
           "artifact": {
-            "size": 145,
-            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/journeymap/icon/theme/flat/container/vtoolbar_begin.png",
-            "MD5": "82b8b457e484046e479974e26ac2fa41",
-            "path": "journeymap/icon/theme/flat/container/vtoolbar_begin.png"
+            "size": 375,
+            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/kubejs/config/client.properties",
+            "MD5": "8838b92163de9c8072211f1479cbd0da",
+            "path": "kubejs/config/client.properties"
           }
         },
         {
-          "id": "vtoolbar_end.png",
-          "name": "vtoolbar_end.png",
+          "id": "common.properties",
+          "name": "common.properties",
           "type": "File",
           "artifact": {
-            "size": 145,
-            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/journeymap/icon/theme/flat/container/vtoolbar_end.png",
-            "MD5": "82b8b457e484046e479974e26ac2fa41",
-            "path": "journeymap/icon/theme/flat/container/vtoolbar_end.png"
+            "size": 342,
+            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/kubejs/config/common.properties",
+            "MD5": "86afe66fc3d0c159bde0364dd1731c0f",
+            "path": "kubejs/config/common.properties"
           }
         },
         {
-          "id": "vtoolbar_inner.png",
-          "name": "vtoolbar_inner.png",
+          "id": "README.txt",
+          "name": "README.txt",
           "type": "File",
           "artifact": {
-            "size": 199,
-            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/journeymap/icon/theme/flat/container/vtoolbar_inner.png",
-            "MD5": "569e70e6e0c65135a9b6b6815b84b972",
-            "path": "journeymap/icon/theme/flat/container/vtoolbar_inner.png"
+            "size": 1203,
+            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/kubejs/README.txt",
+            "MD5": "9b7dd698e2035090afd6f76f2d493cc6",
+            "path": "kubejs/README.txt"
           }
         },
         {
-          "id": "flat_button_disabled.png",
-          "name": "flat_button_disabled.png",
+          "id": "crafteosItems.js",
+          "name": "crafteosItems.js",
           "type": "File",
           "artifact": {
-            "size": 399,
-            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/journeymap/icon/theme/flat/control/flat_button_disabled.png",
-            "MD5": "c3b4c14895831b27deb5b0880a71fe73",
-            "path": "journeymap/icon/theme/flat/control/flat_button_disabled.png"
+            "size": 552,
+            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/kubejs/server_scripts/crafteosItems.js",
+            "MD5": "7b59647ef35e04a20259376abfa5ea99",
+            "path": "kubejs/server_scripts/crafteosItems.js"
           }
         },
         {
-          "id": "flat_button_hover.png",
-          "name": "flat_button_hover.png",
+          "id": "funcionalidadItems.js",
+          "name": "funcionalidadItems.js",
           "type": "File",
           "artifact": {
-            "size": 399,
-            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/journeymap/icon/theme/flat/control/flat_button_hover.png",
-            "MD5": "c3b4c14895831b27deb5b0880a71fe73",
-            "path": "journeymap/icon/theme/flat/control/flat_button_hover.png"
+            "size": 812,
+            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/kubejs/server_scripts/funcionalidadItems.js",
+            "MD5": "a431f674d3d5aa82c72ecff7430f5a34",
+            "path": "kubejs/server_scripts/funcionalidadItems.js"
           }
         },
         {
-          "id": "flat_button_off.png",
-          "name": "flat_button_off.png",
+          "id": "nuevosItems.js",
+          "name": "nuevosItems.js",
           "type": "File",
           "artifact": {
-            "size": 399,
-            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/journeymap/icon/theme/flat/control/flat_button_off.png",
-            "MD5": "c3b4c14895831b27deb5b0880a71fe73",
-            "path": "journeymap/icon/theme/flat/control/flat_button_off.png"
-          }
-        },
-        {
-          "id": "flat_button_on.png",
-          "name": "flat_button_on.png",
-          "type": "File",
-          "artifact": {
-            "size": 399,
-            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/journeymap/icon/theme/flat/control/flat_button_on.png",
-            "MD5": "c3b4c14895831b27deb5b0880a71fe73",
-            "path": "journeymap/icon/theme/flat/control/flat_button_on.png"
-          }
-        },
-        {
-          "id": "flat_toggle_disabled.png",
-          "name": "flat_toggle_disabled.png",
-          "type": "File",
-          "artifact": {
-            "size": 667,
-            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/journeymap/icon/theme/flat/control/flat_toggle_disabled.png",
-            "MD5": "791d87e69e610e569353544f3687d3d0",
-            "path": "journeymap/icon/theme/flat/control/flat_toggle_disabled.png"
-          }
-        },
-        {
-          "id": "flat_toggle_hover.png",
-          "name": "flat_toggle_hover.png",
-          "type": "File",
-          "artifact": {
-            "size": 611,
-            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/journeymap/icon/theme/flat/control/flat_toggle_hover.png",
-            "MD5": "f746c00ea1178ba9768a024dd79972ec",
-            "path": "journeymap/icon/theme/flat/control/flat_toggle_hover.png"
-          }
-        },
-        {
-          "id": "flat_toggle_off.png",
-          "name": "flat_toggle_off.png",
-          "type": "File",
-          "artifact": {
-            "size": 667,
-            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/journeymap/icon/theme/flat/control/flat_toggle_off.png",
-            "MD5": "791d87e69e610e569353544f3687d3d0",
-            "path": "journeymap/icon/theme/flat/control/flat_toggle_off.png"
-          }
-        },
-        {
-          "id": "flat_toggle_on.png",
-          "name": "flat_toggle_on.png",
-          "type": "File",
-          "artifact": {
-            "size": 611,
-            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/journeymap/icon/theme/flat/control/flat_toggle_on.png",
-            "MD5": "32333489c3af7acb084fc7d2e1d6b835",
-            "path": "journeymap/icon/theme/flat/control/flat_toggle_on.png"
-          }
-        },
-        {
-          "id": "DesertTemple.theme2.json",
-          "name": "DesertTemple.theme2.json",
-          "type": "File",
-          "artifact": {
-            "size": 8925,
-            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/journeymap/icon/theme/flat/DesertTemple.theme2.json",
-            "MD5": "ef97d6d4a3c3a745a5a819f81617a3a4",
-            "path": "journeymap/icon/theme/flat/DesertTemple.theme2.json"
-          }
-        },
-        {
-          "id": "EndCity.theme2.json",
-          "name": "EndCity.theme2.json",
-          "type": "File",
-          "artifact": {
-            "size": 8920,
-            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/journeymap/icon/theme/flat/EndCity.theme2.json",
-            "MD5": "8bd570528afe51dad02dcd97eaa16098",
-            "path": "journeymap/icon/theme/flat/EndCity.theme2.json"
-          }
-        },
-        {
-          "id": "ForestMansion.theme2.json",
-          "name": "ForestMansion.theme2.json",
-          "type": "File",
-          "artifact": {
-            "size": 8926,
-            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/journeymap/icon/theme/flat/ForestMansion.theme2.json",
-            "MD5": "c0fb578a459a623baf538026edd27422",
-            "path": "journeymap/icon/theme/flat/ForestMansion.theme2.json"
-          }
-        },
-        {
-          "id": "about.png",
-          "name": "about.png",
-          "type": "File",
-          "artifact": {
-            "size": 651,
-            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/journeymap/icon/theme/flat/icon/about.png",
-            "MD5": "51dd21a90b121e6ee54629d7aa06bbe0",
-            "path": "journeymap/icon/theme/flat/icon/about.png"
-          }
-        },
-        {
-          "id": "actions.png",
-          "name": "actions.png",
-          "type": "File",
-          "artifact": {
-            "size": 1371,
-            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/journeymap/icon/theme/flat/icon/actions.png",
-            "MD5": "0ef11997aba83ffb45df8ef8fa5a7aac",
-            "path": "journeymap/icon/theme/flat/icon/actions.png"
-          }
-        },
-        {
-          "id": "alert.png",
-          "name": "alert.png",
-          "type": "File",
-          "artifact": {
-            "size": 1101,
-            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/journeymap/icon/theme/flat/icon/alert.png",
-            "MD5": "afaa1f1f124c7446ea79d69718e2e9a9",
-            "path": "journeymap/icon/theme/flat/icon/alert.png"
-          }
-        },
-        {
-          "id": "animals.png",
-          "name": "animals.png",
-          "type": "File",
-          "artifact": {
-            "size": 834,
-            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/journeymap/icon/theme/flat/icon/animals.png",
-            "MD5": "05d86dc96f528fd3f644384f82f4b30f",
-            "path": "journeymap/icon/theme/flat/icon/animals.png"
-          }
-        },
-        {
-          "id": "automap.png",
-          "name": "automap.png",
-          "type": "File",
-          "artifact": {
-            "size": 591,
-            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/journeymap/icon/theme/flat/icon/automap.png",
-            "MD5": "457dcb561ef49473e6242f8fabf1f0f1",
-            "path": "journeymap/icon/theme/flat/icon/automap.png"
-          }
-        },
-        {
-          "id": "biome.png",
-          "name": "biome.png",
-          "type": "File",
-          "artifact": {
-            "size": 1029,
-            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/journeymap/icon/theme/flat/icon/biome.png",
-            "MD5": "c45a1223330ab9056f931ee1df6a5c3c",
-            "path": "journeymap/icon/theme/flat/icon/biome.png"
-          }
-        },
-        {
-          "id": "browser.png",
-          "name": "browser.png",
-          "type": "File",
-          "artifact": {
-            "size": 1694,
-            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/journeymap/icon/theme/flat/icon/browser.png",
-            "MD5": "55898ae51928c26ba420bd3716c64b72",
-            "path": "journeymap/icon/theme/flat/icon/browser.png"
-          }
-        },
-        {
-          "id": "caves.png",
-          "name": "caves.png",
-          "type": "File",
-          "artifact": {
-            "size": 1081,
-            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/journeymap/icon/theme/flat/icon/caves.png",
-            "MD5": "7da04feb4cefb09e18cc3a095a083558",
-            "path": "journeymap/icon/theme/flat/icon/caves.png"
-          }
-        },
-        {
-          "id": "close.png",
-          "name": "close.png",
-          "type": "File",
-          "artifact": {
-            "size": 1373,
-            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/journeymap/icon/theme/flat/icon/close.png",
-            "MD5": "e4455f2a047f784231056e104293c161",
-            "path": "journeymap/icon/theme/flat/icon/close.png"
-          }
-        },
-        {
-          "id": "day.png",
-          "name": "day.png",
-          "type": "File",
-          "artifact": {
-            "size": 1515,
-            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/journeymap/icon/theme/flat/icon/day.png",
-            "MD5": "4b394cdd9d548238442673032c56fa57",
-            "path": "journeymap/icon/theme/flat/icon/day.png"
-          }
-        },
-        {
-          "id": "delete.png",
-          "name": "delete.png",
-          "type": "File",
-          "artifact": {
-            "size": 939,
-            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/journeymap/icon/theme/flat/icon/delete.png",
-            "MD5": "629d6824db2898ebc16a00ba14487552",
-            "path": "journeymap/icon/theme/flat/icon/delete.png"
-          }
-        },
-        {
-          "id": "disable.png",
-          "name": "disable.png",
-          "type": "File",
-          "artifact": {
-            "size": 833,
-            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/journeymap/icon/theme/flat/icon/disable.png",
-            "MD5": "73d4e93e1c708d3f20f3d14e24dfa001",
-            "path": "journeymap/icon/theme/flat/icon/disable.png"
-          }
-        },
-        {
-          "id": "follow.png",
-          "name": "follow.png",
-          "type": "File",
-          "artifact": {
-            "size": 1274,
-            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/journeymap/icon/theme/flat/icon/follow.png",
-            "MD5": "1af8b8c5d19f250bebc0b8a331a4467d",
-            "path": "journeymap/icon/theme/flat/icon/follow.png"
-          }
-        },
-        {
-          "id": "grid.png",
-          "name": "grid.png",
-          "type": "File",
-          "artifact": {
-            "size": 514,
-            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/journeymap/icon/theme/flat/icon/grid.png",
-            "MD5": "630458a6b626ae8c4661392e28327162",
-            "path": "journeymap/icon/theme/flat/icon/grid.png"
-          }
-        },
-        {
-          "id": "keys.png",
-          "name": "keys.png",
-          "type": "File",
-          "artifact": {
-            "size": 456,
-            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/journeymap/icon/theme/flat/icon/keys.png",
-            "MD5": "48438ebd8464da96a7d0ed12d041cebe",
-            "path": "journeymap/icon/theme/flat/icon/keys.png"
-          }
-        },
-        {
-          "id": "layers.png",
-          "name": "layers.png",
-          "type": "File",
-          "artifact": {
-            "size": 1339,
-            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/journeymap/icon/theme/flat/icon/layers.png",
-            "MD5": "450ef573defd780e53aed8b422c20188",
-            "path": "journeymap/icon/theme/flat/icon/layers.png"
-          }
-        },
-        {
-          "id": "monsters.png",
-          "name": "monsters.png",
-          "type": "File",
-          "artifact": {
-            "size": 482,
-            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/journeymap/icon/theme/flat/icon/monsters.png",
-            "MD5": "161f4b1825fe6aaa7e6c646e1df7c22d",
-            "path": "journeymap/icon/theme/flat/icon/monsters.png"
-          }
-        },
-        {
-          "id": "night.png",
-          "name": "night.png",
-          "type": "File",
-          "artifact": {
-            "size": 1035,
-            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/journeymap/icon/theme/flat/icon/night.png",
-            "MD5": "2c2e1ae5318cd9d3b566ebad983e641d",
-            "path": "journeymap/icon/theme/flat/icon/night.png"
-          }
-        },
-        {
-          "id": "options.png",
-          "name": "options.png",
-          "type": "File",
-          "artifact": {
-            "size": 644,
-            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/journeymap/icon/theme/flat/icon/options.png",
-            "MD5": "0b718c3c1ee9ee19d0dadae5f252535b",
-            "path": "journeymap/icon/theme/flat/icon/options.png"
-          }
-        },
-        {
-          "id": "pets.png",
-          "name": "pets.png",
-          "type": "File",
-          "artifact": {
-            "size": 827,
-            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/journeymap/icon/theme/flat/icon/pets.png",
-            "MD5": "ecff0a3a4cb9cc88eec4c65d83639d19",
-            "path": "journeymap/icon/theme/flat/icon/pets.png"
-          }
-        },
-        {
-          "id": "players.png",
-          "name": "players.png",
-          "type": "File",
-          "artifact": {
-            "size": 362,
-            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/journeymap/icon/theme/flat/icon/players.png",
-            "MD5": "ff8899097b21d8744ed57065cf25a5b2",
-            "path": "journeymap/icon/theme/flat/icon/players.png"
-          }
-        },
-        {
-          "id": "reset.png",
-          "name": "reset.png",
-          "type": "File",
-          "artifact": {
-            "size": 659,
-            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/journeymap/icon/theme/flat/icon/reset.png",
-            "MD5": "4027ef0ff444cab320978eb0a2974b7e",
-            "path": "journeymap/icon/theme/flat/icon/reset.png"
-          }
-        },
-        {
-          "id": "savemap.png",
-          "name": "savemap.png",
-          "type": "File",
-          "artifact": {
-            "size": 926,
-            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/journeymap/icon/theme/flat/icon/savemap.png",
-            "MD5": "be5bfbbeab34d292ddcef08f9d7383c8",
-            "path": "journeymap/icon/theme/flat/icon/savemap.png"
-          }
-        },
-        {
-          "id": "search.png",
-          "name": "search.png",
-          "type": "File",
-          "artifact": {
-            "size": 1168,
-            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/journeymap/icon/theme/flat/icon/search.png",
-            "MD5": "b30e5d3527eb483b344d47b11597b7df",
-            "path": "journeymap/icon/theme/flat/icon/search.png"
-          }
-        },
-        {
-          "id": "server.png",
-          "name": "server.png",
-          "type": "File",
-          "artifact": {
-            "size": 3038,
-            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/journeymap/icon/theme/flat/icon/server.png",
-            "MD5": "b934f10174be355e0414ccea904b019b",
-            "path": "journeymap/icon/theme/flat/icon/server.png"
-          }
-        },
-        {
-          "id": "theme.png",
-          "name": "theme.png",
-          "type": "File",
-          "artifact": {
-            "size": 1151,
-            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/journeymap/icon/theme/flat/icon/theme.png",
-            "MD5": "4a4cbd1cba4e8606cbb7a8260fe3a2b2",
-            "path": "journeymap/icon/theme/flat/icon/theme.png"
-          }
-        },
-        {
-          "id": "topo.png",
-          "name": "topo.png",
-          "type": "File",
-          "artifact": {
-            "size": 1330,
-            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/journeymap/icon/theme/flat/icon/topo.png",
-            "MD5": "ed12bd7bd28debaaf75d1af3a910a1c6",
-            "path": "journeymap/icon/theme/flat/icon/topo.png"
-          }
-        },
-        {
-          "id": "villagers.png",
-          "name": "villagers.png",
-          "type": "File",
-          "artifact": {
-            "size": 393,
-            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/journeymap/icon/theme/flat/icon/villagers.png",
-            "MD5": "1d49a9009bbfee78f7e773a9d352d3a2",
-            "path": "journeymap/icon/theme/flat/icon/villagers.png"
-          }
-        },
-        {
-          "id": "waypoints.png",
-          "name": "waypoints.png",
-          "type": "File",
-          "artifact": {
-            "size": 1606,
-            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/journeymap/icon/theme/flat/icon/waypoints.png",
-            "MD5": "c7faaffc9c1ce8316f91bb934b19b5c7",
-            "path": "journeymap/icon/theme/flat/icon/waypoints.png"
-          }
-        },
-        {
-          "id": "zoomin.png",
-          "name": "zoomin.png",
-          "type": "File",
-          "artifact": {
-            "size": 1305,
-            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/journeymap/icon/theme/flat/icon/zoomin.png",
-            "MD5": "76e924ab75bab01b92d4c7bb97ac2625",
-            "path": "journeymap/icon/theme/flat/icon/zoomin.png"
-          }
-        },
-        {
-          "id": "zoomout.png",
-          "name": "zoomout.png",
-          "type": "File",
-          "artifact": {
-            "size": 1241,
-            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/journeymap/icon/theme/flat/icon/zoomout.png",
-            "MD5": "d2e04e295c2f35c1f1c6801dc59dc440",
-            "path": "journeymap/icon/theme/flat/icon/zoomout.png"
-          }
-        },
-        {
-          "id": "flat_compass_point.png",
-          "name": "flat_compass_point.png",
-          "type": "File",
-          "artifact": {
-            "size": 589,
-            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/journeymap/icon/theme/flat/minimap/circle/flat_compass_point.png",
-            "MD5": "cba29650354980f136db82cc52d55d89",
-            "path": "journeymap/icon/theme/flat/minimap/circle/flat_compass_point.png"
-          }
-        },
-        {
-          "id": "flat_mask_256.png",
-          "name": "flat_mask_256.png",
-          "type": "File",
-          "artifact": {
-            "size": 7020,
-            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/journeymap/icon/theme/flat/minimap/circle/flat_mask_256.png",
-            "MD5": "4e3e20c86f375ae6d1b53f448835fdb8",
-            "path": "journeymap/icon/theme/flat/minimap/circle/flat_mask_256.png"
-          }
-        },
-        {
-          "id": "flat_mask_512.png",
-          "name": "flat_mask_512.png",
-          "type": "File",
-          "artifact": {
-            "size": 20438,
-            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/journeymap/icon/theme/flat/minimap/circle/flat_mask_512.png",
-            "MD5": "1e908326f7bddbb59634164c52b39265",
-            "path": "journeymap/icon/theme/flat/minimap/circle/flat_mask_512.png"
-          }
-        },
-        {
-          "id": "flat_rim_256.png",
-          "name": "flat_rim_256.png",
-          "type": "File",
-          "artifact": {
-            "size": 6751,
-            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/journeymap/icon/theme/flat/minimap/circle/flat_rim_256.png",
-            "MD5": "253e38c2aca245171819adc83e5d6950",
-            "path": "journeymap/icon/theme/flat/minimap/circle/flat_rim_256.png"
-          }
-        },
-        {
-          "id": "flat_rim_512.png",
-          "name": "flat_rim_512.png",
-          "type": "File",
-          "artifact": {
-            "size": 14309,
-            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/journeymap/icon/theme/flat/minimap/circle/flat_rim_512.png",
-            "MD5": "edc555a83f714efa5c12d03865112628",
-            "path": "journeymap/icon/theme/flat/minimap/circle/flat_rim_512.png"
-          }
-        },
-        {
-          "id": "pur_compass_point.png",
-          "name": "pur_compass_point.png",
-          "type": "File",
-          "artifact": {
-            "size": 959,
-            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/journeymap/icon/theme/flat/minimap/circle/pur_compass_point.png",
-            "MD5": "b93f935ef1173b4ba48bd95133568b56",
-            "path": "journeymap/icon/theme/flat/minimap/circle/pur_compass_point.png"
-          }
-        },
-        {
-          "id": "pur_mask_256.png",
-          "name": "pur_mask_256.png",
-          "type": "File",
-          "artifact": {
-            "size": 2067,
-            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/journeymap/icon/theme/flat/minimap/circle/pur_mask_256.png",
-            "MD5": "9e3dd563a09eca2e7ce680aa0218d0e3",
-            "path": "journeymap/icon/theme/flat/minimap/circle/pur_mask_256.png"
-          }
-        },
-        {
-          "id": "pur_mask_512.png",
-          "name": "pur_mask_512.png",
-          "type": "File",
-          "artifact": {
-            "size": 10622,
-            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/journeymap/icon/theme/flat/minimap/circle/pur_mask_512.png",
-            "MD5": "2135a5f65419ee3fcd0d63a722ec0cfd",
-            "path": "journeymap/icon/theme/flat/minimap/circle/pur_mask_512.png"
-          }
-        },
-        {
-          "id": "pur_rim_256.png",
-          "name": "pur_rim_256.png",
-          "type": "File",
-          "artifact": {
-            "size": 15210,
-            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/journeymap/icon/theme/flat/minimap/circle/pur_rim_256.png",
-            "MD5": "8c28162acd291452f96b8962706545bb",
-            "path": "journeymap/icon/theme/flat/minimap/circle/pur_rim_256.png"
-          }
-        },
-        {
-          "id": "pur_rim_512.png",
-          "name": "pur_rim_512.png",
-          "type": "File",
-          "artifact": {
-            "size": 37803,
-            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/journeymap/icon/theme/flat/minimap/circle/pur_rim_512.png",
-            "MD5": "6c67ecd99a7cbc14838c437f3059d245",
-            "path": "journeymap/icon/theme/flat/minimap/circle/pur_rim_512.png"
-          }
-        },
-        {
-          "id": "flat_bottom.png",
-          "name": "flat_bottom.png",
-          "type": "File",
-          "artifact": {
-            "size": 154,
-            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/journeymap/icon/theme/flat/minimap/square/flat_bottom.png",
-            "MD5": "0dec683433cc1ed29578edbe447e0416",
-            "path": "journeymap/icon/theme/flat/minimap/square/flat_bottom.png"
-          }
-        },
-        {
-          "id": "flat_bottomleft.png",
-          "name": "flat_bottomleft.png",
-          "type": "File",
-          "artifact": {
-            "size": 159,
-            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/journeymap/icon/theme/flat/minimap/square/flat_bottomleft.png",
-            "MD5": "e0ef36459a92962091b3c2297ebd492b",
-            "path": "journeymap/icon/theme/flat/minimap/square/flat_bottomleft.png"
-          }
-        },
-        {
-          "id": "flat_bottomright.png",
-          "name": "flat_bottomright.png",
-          "type": "File",
-          "artifact": {
-            "size": 162,
-            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/journeymap/icon/theme/flat/minimap/square/flat_bottomright.png",
-            "MD5": "257056afd41430be6c6e017adbbec83b",
-            "path": "journeymap/icon/theme/flat/minimap/square/flat_bottomright.png"
-          }
-        },
-        {
-          "id": "flat_compass_point.png",
-          "name": "flat_compass_point.png",
-          "type": "File",
-          "artifact": {
-            "size": 199,
-            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/journeymap/icon/theme/flat/minimap/square/flat_compass_point.png",
-            "MD5": "3e111929da1913b53355991ba69fdb9a",
-            "path": "journeymap/icon/theme/flat/minimap/square/flat_compass_point.png"
-          }
-        },
-        {
-          "id": "flat_left.png",
-          "name": "flat_left.png",
-          "type": "File",
-          "artifact": {
-            "size": 152,
-            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/journeymap/icon/theme/flat/minimap/square/flat_left.png",
-            "MD5": "4784fe7e5dcf7cc3629399b67b1626c3",
-            "path": "journeymap/icon/theme/flat/minimap/square/flat_left.png"
-          }
-        },
-        {
-          "id": "flat_right.png",
-          "name": "flat_right.png",
-          "type": "File",
-          "artifact": {
-            "size": 153,
-            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/journeymap/icon/theme/flat/minimap/square/flat_right.png",
-            "MD5": "f24bb1839602c9c4b507f36f03755f15",
-            "path": "journeymap/icon/theme/flat/minimap/square/flat_right.png"
-          }
-        },
-        {
-          "id": "flat_top.png",
-          "name": "flat_top.png",
-          "type": "File",
-          "artifact": {
-            "size": 154,
-            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/journeymap/icon/theme/flat/minimap/square/flat_top.png",
-            "MD5": "5d32ccf7b5cf96c557976d18f7b9f807",
-            "path": "journeymap/icon/theme/flat/minimap/square/flat_top.png"
-          }
-        },
-        {
-          "id": "flat_topleft.png",
-          "name": "flat_topleft.png",
-          "type": "File",
-          "artifact": {
-            "size": 157,
-            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/journeymap/icon/theme/flat/minimap/square/flat_topleft.png",
-            "MD5": "89dac45d101d30c5b68e8053c6882a0d",
-            "path": "journeymap/icon/theme/flat/minimap/square/flat_topleft.png"
-          }
-        },
-        {
-          "id": "flat_topright.png",
-          "name": "flat_topright.png",
-          "type": "File",
-          "artifact": {
-            "size": 157,
-            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/journeymap/icon/theme/flat/minimap/square/flat_topright.png",
-            "MD5": "f8771e145f8364e82ed7ce3ae79e4bda",
-            "path": "journeymap/icon/theme/flat/minimap/square/flat_topright.png"
-          }
-        },
-        {
-          "id": "pur_bottom.png",
-          "name": "pur_bottom.png",
-          "type": "File",
-          "artifact": {
-            "size": 164,
-            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/journeymap/icon/theme/flat/minimap/square/pur_bottom.png",
-            "MD5": "7ebab006d87fcbc1da28990b3f923989",
-            "path": "journeymap/icon/theme/flat/minimap/square/pur_bottom.png"
-          }
-        },
-        {
-          "id": "pur_bottomleft.png",
-          "name": "pur_bottomleft.png",
-          "type": "File",
-          "artifact": {
-            "size": 207,
-            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/journeymap/icon/theme/flat/minimap/square/pur_bottomleft.png",
-            "MD5": "ef8534a2f05d2c3106f0720e93eddb3f",
-            "path": "journeymap/icon/theme/flat/minimap/square/pur_bottomleft.png"
-          }
-        },
-        {
-          "id": "pur_bottomright.png",
-          "name": "pur_bottomright.png",
-          "type": "File",
-          "artifact": {
-            "size": 215,
-            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/journeymap/icon/theme/flat/minimap/square/pur_bottomright.png",
-            "MD5": "4b7003eba91d737295e1429d66b31156",
-            "path": "journeymap/icon/theme/flat/minimap/square/pur_bottomright.png"
-          }
-        },
-        {
-          "id": "pur_compass_point.png",
-          "name": "pur_compass_point.png",
-          "type": "File",
-          "artifact": {
-            "size": 199,
-            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/journeymap/icon/theme/flat/minimap/square/pur_compass_point.png",
-            "MD5": "3e111929da1913b53355991ba69fdb9a",
-            "path": "journeymap/icon/theme/flat/minimap/square/pur_compass_point.png"
-          }
-        },
-        {
-          "id": "pur_left.png",
-          "name": "pur_left.png",
-          "type": "File",
-          "artifact": {
-            "size": 160,
-            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/journeymap/icon/theme/flat/minimap/square/pur_left.png",
-            "MD5": "7c9ed0e45981a75dfe3f713c00c1acfb",
-            "path": "journeymap/icon/theme/flat/minimap/square/pur_left.png"
-          }
-        },
-        {
-          "id": "pur_right.png",
-          "name": "pur_right.png",
-          "type": "File",
-          "artifact": {
-            "size": 163,
-            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/journeymap/icon/theme/flat/minimap/square/pur_right.png",
-            "MD5": "4f353bcd3ffab12b1bd48705732a91dc",
-            "path": "journeymap/icon/theme/flat/minimap/square/pur_right.png"
-          }
-        },
-        {
-          "id": "pur_top.png",
-          "name": "pur_top.png",
-          "type": "File",
-          "artifact": {
-            "size": 159,
-            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/journeymap/icon/theme/flat/minimap/square/pur_top.png",
-            "MD5": "fe079179f72d2be13e42252336db233b",
-            "path": "journeymap/icon/theme/flat/minimap/square/pur_top.png"
-          }
-        },
-        {
-          "id": "pur_topleft.png",
-          "name": "pur_topleft.png",
-          "type": "File",
-          "artifact": {
-            "size": 205,
-            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/journeymap/icon/theme/flat/minimap/square/pur_topleft.png",
-            "MD5": "01e815c33e5bec079337e6cf7739511e",
-            "path": "journeymap/icon/theme/flat/minimap/square/pur_topleft.png"
-          }
-        },
-        {
-          "id": "pur_topright.png",
-          "name": "pur_topright.png",
-          "type": "File",
-          "artifact": {
-            "size": 226,
-            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/journeymap/icon/theme/flat/minimap/square/pur_topright.png",
-            "MD5": "e800293134c150236f70b7da30bd7169",
-            "path": "journeymap/icon/theme/flat/minimap/square/pur_topright.png"
-          }
-        },
-        {
-          "id": "NetherFortress.theme2.json",
-          "name": "NetherFortress.theme2.json",
-          "type": "File",
-          "artifact": {
-            "size": 8927,
-            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/journeymap/icon/theme/flat/NetherFortress.theme2.json",
-            "MD5": "17e698f2232e0839fc2ea8cf0b2bcfd4",
-            "path": "journeymap/icon/theme/flat/NetherFortress.theme2.json"
-          }
-        },
-        {
-          "id": "OceanMonument.theme2.json",
-          "name": "OceanMonument.theme2.json",
-          "type": "File",
-          "artifact": {
-            "size": 8926,
-            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/journeymap/icon/theme/flat/OceanMonument.theme2.json",
-            "MD5": "3320c6ddb02866175d0b13f98e5ab7ff",
-            "path": "journeymap/icon/theme/flat/OceanMonument.theme2.json"
-          }
-        },
-        {
-          "id": "Purist.theme2.json",
-          "name": "Purist.theme2.json",
-          "type": "File",
-          "artifact": {
-            "size": 8907,
-            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/journeymap/icon/theme/flat/Purist.theme2.json",
-            "MD5": "bd7bc4c29dca54bccecf2cdc114a6667",
-            "path": "journeymap/icon/theme/flat/Purist.theme2.json"
-          }
-        },
-        {
-          "id": "Stronghold.theme2.json",
-          "name": "Stronghold.theme2.json",
-          "type": "File",
-          "artifact": {
-            "size": 8923,
-            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/journeymap/icon/theme/flat/Stronghold.theme2.json",
-            "MD5": "875fcfd96f8371c6e3a0fcd7fca994df",
-            "path": "journeymap/icon/theme/flat/Stronghold.theme2.json"
-          }
-        },
-        {
-          "id": "journeymap.log",
-          "name": "journeymap.log",
-          "type": "File",
-          "artifact": {
-            "size": 9259,
-            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/journeymap/journeymap.log",
-            "MD5": "ab28d182d9d1e2cc4d5506ae7ba95ac4",
-            "path": "journeymap/journeymap.log"
-          }
-        },
-        {
-          "id": "journeymap.server.default.config",
-          "name": "journeymap.server.default.config",
-          "type": "File",
-          "artifact": {
-            "size": 649,
-            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/journeymap/server/5.10/journeymap.server.default.config",
-            "MD5": "c1e59835b9ffc8dd597550e558054336",
-            "path": "journeymap/server/5.10/journeymap.server.default.config"
-          }
-        },
-        {
-          "id": "journeymap.server.global.config",
-          "name": "journeymap.server.global.config",
-          "type": "File",
-          "artifact": {
-            "size": 1023,
-            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/journeymap/server/5.10/journeymap.server.global.config",
-            "MD5": "6f51bfc863bb6e4ffd75329ee635fb07",
-            "path": "journeymap/server/5.10/journeymap.server.global.config"
-          }
-        },
-        {
-          "id": "journeymap.server.minecraft~overworld.config",
-          "name": "journeymap.server.minecraft~overworld.config",
-          "type": "File",
-          "artifact": {
-            "size": 1001,
-            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/journeymap/server/5.10/journeymap.server.minecraft~overworld.config",
-            "MD5": "a6582c7dbe4ab50e6661a0d4b06180a8",
-            "path": "journeymap/server/5.10/journeymap.server.minecraft~overworld.config"
-          }
-        },
-        {
-          "id": "journeymap.server.minecraft~the_end.config",
-          "name": "journeymap.server.minecraft~the_end.config",
-          "type": "File",
-          "artifact": {
-            "size": 997,
-            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/journeymap/server/5.10/journeymap.server.minecraft~the_end.config",
-            "MD5": "7834d2103023ef39c968f43aea076571",
-            "path": "journeymap/server/5.10/journeymap.server.minecraft~the_end.config"
-          }
-        },
-        {
-          "id": "journeymap.server.minecraft~the_nether.config",
-          "name": "journeymap.server.minecraft~the_nether.config",
-          "type": "File",
-          "artifact": {
-            "size": 1003,
-            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/journeymap/server/5.10/journeymap.server.minecraft~the_nether.config",
-            "MD5": "94a58b92306cd8e1fa5ebc5aa3781614",
-            "path": "journeymap/server/5.10/journeymap.server.minecraft~the_nether.config"
-          }
-        },
-        {
-          "id": "journeymap.server.mmorpg~dungeon.config",
-          "name": "journeymap.server.mmorpg~dungeon.config",
-          "type": "File",
-          "artifact": {
-            "size": 991,
-            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/journeymap/server/5.10/journeymap.server.mmorpg~dungeon.config",
-            "MD5": "d3489f3a4624a3e4e8340833fdb49793",
-            "path": "journeymap/server/5.10/journeymap.server.mmorpg~dungeon.config"
+            "size": 1324,
+            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/kubejs/startup_scripts/nuevosItems.js",
+            "MD5": "4e31b829fe29b7985ea4e916c8626708",
+            "path": "kubejs/startup_scripts/nuevosItems.js"
           }
         }
       ]

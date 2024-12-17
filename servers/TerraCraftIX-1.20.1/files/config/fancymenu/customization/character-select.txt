@@ -1,0 +1,154 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = com.robertx22.mine_and_slash.characters.gui.CharacterSelectScreen
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1725550308087
+  is_enabled = true
+  randommode = false
+  randomgroup = 1
+  randomonlyfirsttime = false
+  layout_index = 0
+  [loading_requirement_container_meta:43d7c3fe-10b6-457f-97e0-77dee0b518cc-1725550168138] = [groups:][instances:]
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = false
+}
+
+scroll_list_customization {
+  preserve_scroll_list_header_footer_aspect_ratio = true
+  render_scroll_list_header_shadow = true
+  render_scroll_list_footer_shadow = true
+  show_scroll_list_header_footer_preview_in_editor = false
+  repeat_scroll_list_header_texture = false
+  repeat_scroll_list_footer_texture = false
+}
+
+element {
+  button_element_executable_block_identifier = a4d3b384-7995-4d30-93e1-0da075b4aca5-1716913452749
+  [executable_action_instance:46b6804d-ef4d-416b-a658-0290bf41c71e-1716913452749][action_type:opengui] = com.robertx22.mine_and_slash.gui.screens.character_screen.MainHubScreen
+  [executable_block:a4d3b384-7995-4d30-93e1-0da075b4aca5-1716913452749][type:generic] = [executables:46b6804d-ef4d-416b-a658-0290bf41c71e-1716913452749;]
+  backgroundnormal = [source:local]config/fancymenu/images/leftright.png
+  backgroundhovered = [source:local]config/fancymenu/images/leftright-hover.png
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  label = 
+  navigatable = true
+  element_type = custom_button
+  instance_identifier = 80707f8f-42b3-4ae1-983f-f1e775ef3d921704386256516
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = mid-centered
+  x = -126
+  y = -140
+  width = 24
+  height = 24
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 1d97a83f-3bcb-480f-9a7b-4f9fa9d463fa-1716913452749
+  [loading_requirement_container_meta:1d97a83f-3bcb-480f-9a7b-4f9fa9d463fa-1716913452749] = [groups:][instances:]
+}
+
+element {
+  button_element_executable_block_identifier = f94284b8-193b-423f-bb75-37117af81602-1716913452749
+  [executable_block:f94284b8-193b-423f-bb75-37117af81602-1716913452749][type:generic] = [executables:]
+  backgroundnormal = [source:local]config/fancymenu/images/extra_info_button.png
+  backgroundhovered = [source:local]config/fancymenu/images/extra_info_button.png
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  description = Este es el Selector de Personajes!%n%Acá vas a poder intercambiar y crear nuevos %n%personajes!%n%%n%Cada personaje va a tener su propio Nivel, %n%Habilidades, Estadísticas, etc%n%%n%Tené en cuenta que los puntos de talento %n%que ganes por misiones va a ser compartido.
+  label = 
+  navigatable = true
+  element_type = custom_button
+  instance_identifier = ba682a3a-ecf7-4e88-905f-23c5ccc87d5e1704386256516
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = mid-centered
+  x = 100
+  y = -141
+  width = 24
+  height = 24
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 29cbb4f4-76a8-4f6d-ba96-c87e97822e33-1716913452749
+  [loading_requirement_container_meta:29cbb4f4-76a8-4f6d-ba96-c87e97822e33-1716913452749] = [groups:][instances:]
+}
+
+vanilla_button {
+  button_element_executable_block_identifier = d9e56dc6-57a8-45b9-a707-29c1c0ecf8fc-1725545478266
+  [executable_block:d9e56dc6-57a8-45b9-a707-29c1c0ecf8fc-1725545478266][type:generic] = [executables:]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  navigatable = true
+  element_type = vanilla_button
+  instance_identifier = 445590
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = vanilla
+  x = 286
+  y = 282
+  width = 100
+  height = 14
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = c0974ea8-2961-4245-bb6b-0e1b5ba6e800-1725545478266
+  [loading_requirement_container_meta:c0974ea8-2961-4245-bb6b-0e1b5ba6e800-1725545478266] = [groups:][instances:]
+  is_hidden = false
+  automated_button_clicks = 0
+  nine_slice_slider_handle = false
+  nine_slice_slider_handle_border_x = 5
+  nine_slice_slider_handle_border_y = 5
+}
+
+vanilla_button {
+  button_element_executable_block_identifier = ea75cf0d-b27d-42cb-8082-fab6b0a3be72-1725545478266
+  [executable_block:ea75cf0d-b27d-42cb-8082-fab6b0a3be72-1725545478266][type:generic] = [executables:]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  navigatable = true
+  element_type = vanilla_button
+  instance_identifier = 563588
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = vanilla
+  x = 404
+  y = 280
+  width = 18
+  height = 18
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = fc3ba8a1-7a0e-4a5d-80ee-cfd766cfef68-1725545478266
+  [loading_requirement_container_meta:fc3ba8a1-7a0e-4a5d-80ee-cfd766cfef68-1725545478266] = [groups:][instances:]
+  is_hidden = false
+  automated_button_clicks = 0
+  nine_slice_slider_handle = false
+  nine_slice_slider_handle_border_x = 5
+  nine_slice_slider_handle_border_y = 5
+}
+
