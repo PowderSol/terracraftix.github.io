@@ -1,5 +1,5 @@
 {
-  "version": "1.0.5",
+  "version": "1.0.0",
   "rss": "<LINK TO RSS FEED>",
   "discord": {
     "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
@@ -12,7 +12,7 @@
       "name": "TerraCraft IX (Minecraft 1.20.1)",
       "description": "TerraCraft IX, ¿Buscas una Aventura? estás en el lugar correcto.",
       "icon": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/testico.jpg",
-      "version": "0.0.9-Lite",
+      "version": "0.1.0",
       "address": "51.222.208.86:25591",
       "minecraftVersion": "1.20.1",
       "mainServer": true,
@@ -791,6 +791,16 @@
           }
         },
         {
+          "id": "xyz.vsngamer:elevatorid:1.20.1-lex-1.9@jar",
+          "name": "Elevator Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 188132,
+            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/forgemods/required/elevatorid-1.20.1-lex-1.9.jar",
+            "MD5": "35c05c6c14993fe3fb38917ce09f51b8"
+          }
+        },
+        {
           "id": "com.illusivesoulworks:elytraslot:6.4.3+1.20.1@jar",
           "name": "Elytra Slot",
           "type": "ForgeMod",
@@ -974,6 +984,46 @@
           }
         },
         {
+          "id": "dev.ftb.mods:ftblibrary:2001.2.7@jar",
+          "name": "FTB Library",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 791244,
+            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/forgemods/required/ftb-library-forge-2001.2.7.jar",
+            "MD5": "3034d825d836273d79e7a453dd2a65f5"
+          }
+        },
+        {
+          "id": "dev.ftb.mods:ftbquests:2001.4.9@jar",
+          "name": "FTB Quests",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1183769,
+            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/forgemods/required/ftb-quests-forge-2001.4.9.jar",
+            "MD5": "7bfa68ae939f181e7be4dc87485f4332"
+          }
+        },
+        {
+          "id": "dev.ftb.mods:ftbteams:2001.3.0@jar",
+          "name": "FTB Teams",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 247666,
+            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/forgemods/required/ftb-teams-forge-2001.3.0.jar",
+            "MD5": "31acf433df9d13282fa12bd6974c44f9"
+          }
+        },
+        {
+          "id": "dev.ftb.mods:ftbxmodcompat:2.1.1@jar",
+          "name": "FTB XMod Compat",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 129541,
+            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/forgemods/required/ftb-xmod-compat-forge-2.1.1.jar",
+            "MD5": "f506cff280b8cb09b4aeb39359f7b1aa"
+          }
+        },
+        {
           "id": "com.supermartijn642:fusion:1.1.1@jar",
           "name": "Fusion",
           "type": "ForgeMod",
@@ -1044,6 +1094,16 @@
             "size": 29438,
             "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/forgemods/required/Highlighter-1.20.1-forge-1.1.9.jar",
             "MD5": "650eec32fdb7c58c30c4d9aa911073d5"
+          }
+        },
+        {
+          "id": "dev.felnull.imp:iammusicplayer:3.22.0-alpha.5@jar",
+          "name": "Iam Music Player",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 10932092,
+            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/forgemods/required/iammusicplayer-forge-mc1.20-3.22.0-alpha.5.jar",
+            "MD5": "0caad1b3cbae8c06d2fd3f30044c041b"
           }
         },
         {
@@ -1513,6 +1573,16 @@
           }
         },
         {
+          "id": "dev.felnull:otyacraftengine:3.7.0-alpha.2@jar",
+          "name": "Otyacraft Engine",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 655951,
+            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/forgemods/required/otyacraftengine-forge-mc1.20-3.7.0-alpha.2.jar",
+            "MD5": "9e7104fba0208a364b159aff60fb47f3"
+          }
+        },
+        {
           "id": "fuzs.overflowingbars:overflowingbars:8.0.0@jar",
           "name": "Overflowing Bars",
           "type": "ForgeMod",
@@ -1910,16 +1980,6 @@
             "size": 483587,
             "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/forgemods/required/waystones-forge-1.20-14.1.4.jar",
             "MD5": "ad35d5d341a1b09cc3761a153b74c9cf"
-          }
-        },
-        {
-          "id": "mc.craig.software.angels:weeping_angels:1@jar",
-          "name": "Weeping Angels",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 4460788,
-            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/forgemods/required/weeping_angels-46.0.2-forge.jar",
-            "MD5": "51769ff198b4fc62100e786e3c4613e2"
           }
         },
         {
@@ -2574,9 +2634,9 @@
           "name": "options.txt",
           "type": "File",
           "artifact": {
-            "size": 2051,
+            "size": 2046,
             "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/config/fancymenu/options.txt",
-            "MD5": "85fe63fc1f6f60b403c90e565d79f3fb",
+            "MD5": "746d1d7dac1b7756a87843dc7a055ec4",
             "path": "config/fancymenu/options.txt"
           }
         },
@@ -2699,17 +2759,6 @@
             "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/config/shouldersurfing-client.toml",
             "MD5": "6462d5cd9cae755aa4e9889198c4b5e7",
             "path": "config/shouldersurfing-client.toml"
-          }
-        },
-        {
-          "id": "weeping_angels-common.toml",
-          "name": "weeping_angels-common.toml",
-          "type": "File",
-          "artifact": {
-            "size": 1042,
-            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/config/weeping_angels-common.toml",
-            "MD5": "603cf1dfe5eb738eb3fb4640d864c3bd",
-            "path": "config/weeping_angels-common.toml"
           }
         },
         {

@@ -1,7 +1,7 @@
 {
   "$schema": "file:///C:/nebula/schemas/ServerMetaSchema.schema.json",
   "meta": {
-    "version": "0.0.9",
+    "version": "0.1.0",
     "name": "TerraCraft IX (Minecraft 1.20.1)",
     "description": "TerraCraft IX, ¿Buscas una Aventura? estás en el lugar correcto.",
     "icon": "How to set the server icon: https://github.com/dscalzi/Nebula#setting-the-server-icon",
