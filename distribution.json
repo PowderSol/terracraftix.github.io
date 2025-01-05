@@ -12,7 +12,7 @@
       "name": "TerraCraft IX (Minecraft 1.20.1)",
       "description": "TerraCraft IX, ¿Buscas una Aventura? estás en el lugar correcto.",
       "icon": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/testico.jpg",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "address": "51.222.208.86:25591",
       "minecraftVersion": "1.20.1",
       "mainServer": true,
@@ -765,6 +765,26 @@
             "size": 87943,
             "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/forgemods/required/defaultoptions-forge-1.20-18.0.1.jar",
             "MD5": "1784bcb1bd23f47ba2d048fc69ac743c"
+          }
+        },
+        {
+          "id": "org.dimdev:dimdoors:5.4.3@jar",
+          "name": "DimensionalDoors",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 17794466,
+            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/forgemods/required/dimdoors-5.4.3-1.20.1-forge.jar",
+            "MD5": "1e20dbf096b37e65c7c23fc5e4c2d47e"
+          }
+        },
+        {
+          "id": "lekavar.lma:drinkbeer:1.0.5@jar",
+          "name": "Drink Beer Refill",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1520963,
+            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/forgemods/required/drinkbeer-refill-1.20.1-1.0.5.jar",
+            "MD5": "700a9178b07fc018fe3d60b20259f57e"
           }
         },
         {
@@ -2201,6 +2221,17 @@
           }
         },
         {
+          "id": "dimdoors-config.json5",
+          "name": "dimdoors-config.json5",
+          "type": "File",
+          "artifact": {
+            "size": 1531,
+            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/config/dimdoors-config.json5",
+            "MD5": "907afac74751d4d279fc42e1f65ac55d",
+            "path": "config/dimdoors-config.json5"
+          }
+        },
+        {
           "id": "musicamenu.ogg",
           "name": "musicamenu.ogg",
           "type": "File",
@@ -2636,7 +2667,7 @@
           "artifact": {
             "size": 2046,
             "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/config/fancymenu/options.txt",
-            "MD5": "746d1d7dac1b7756a87843dc7a055ec4",
+            "MD5": "402a856ed9ea6980de4a54f151f90972",
             "path": "config/fancymenu/options.txt"
           }
         },
@@ -3012,6 +3043,17 @@
             "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/kubejs/server_scripts/funcionalidadItems.js",
             "MD5": "a431f674d3d5aa82c72ecff7430f5a34",
             "path": "kubejs/server_scripts/funcionalidadItems.js"
+          }
+        },
+        {
+          "id": "sacarRecetas.js",
+          "name": "sacarRecetas.js",
+          "type": "File",
+          "artifact": {
+            "size": 331,
+            "url": "https://powdersol.github.io/terracraftix.github.io/servers/TerraCraftIX-1.20.1/files/kubejs/server_scripts/sacarRecetas.js",
+            "MD5": "b5c1bd7dd63f58ba48e0794e78f09020",
+            "path": "kubejs/server_scripts/sacarRecetas.js"
           }
         },
         {
